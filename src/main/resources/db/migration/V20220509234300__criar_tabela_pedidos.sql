@@ -1,0 +1,6 @@
+CREATE TABLE pedidos (
+  id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  cliente_id BIGINT NOT NULL,
+  estabelecimento_id BIGINT NOT NULL,
+  data TIMESTAMP NOT NULL
+)
